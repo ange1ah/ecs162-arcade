@@ -1,0 +1,38 @@
+body{
+background: #FFF3F3;
+text-align: center;
+padding: 0;
+margin: 0;
+}
+
+canvas{
+border: 10px solid #F9B4DA;
+border-radius: 15px;
+box-shadow: 0 0 10px #2D2D2D;
+margin-bottom: 100px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+header {
+    text-align: left; /* Aligns the header content to the left */
+    padding-left: 100px; /* Adds padding to the left to push it from the edge */
+    margin-top: 0;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+h4 {
+    font-family: "Princess Sofia", sans-serif; /* Ensures the font is Princess Sofia */
+    font-size: 30px; /* Adjust the size as needed to match the home page */
+    color: #000; /* Adjust the color if needed */
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}

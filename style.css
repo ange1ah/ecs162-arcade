@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    margin: 40px;
+    margin-top: 0px;
+    padding-left: 100px;
+}
+
+body {
+    background-color: #FFF3F3;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+footer {
+    background: #F9B4DA;
+    font-family: Raleway;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+
+h1 {
+    color: #000;
+    font-family: "Princess Sofia";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2 {
+    color: #000;
+    font-family: "Princess Sofia";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h3 {
+    color: #704C4C;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+h4 {
+    color: #000;
+    font-family: "Princess Sofia";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h5 {
+    color: #704C4C;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p, label {
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 200px;
+}
+
+.select-game-button {
+    display: inline-flex;
+    padding: 15px 25px;
+    align-items: center;   
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.12);
+    color: #704C4C;
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+#home-top-middle {
+    padding-top: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#home-top-middle-second {
+    margin-top: -40px;
+}
+
+#home-main-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 150px;
+    padding-bottom: 125px;
+}
+
+#home-main-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 70px;
+}
+
+@media (max-width: 480px) {
+    #home-main-parent, .parent {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+
+    #home-main-left {
+        margin: 0px;
+        padding-bottom: 25px;
+    }
+
+    .left {
+        padding-left: 50px;
+        padding-right: 0px;
+        padding-bottom: 70px;
+    }
+
+    header {
+        padding: 0px;
+        width: 100%;
+    }
+
+    h4 {
+        font-size: 6vw;
+    }
+}

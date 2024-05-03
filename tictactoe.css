@@ -1,0 +1,56 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates a 3x3 grid */
+    gap: 10px; /* Space between cells */
+    margin: 20px auto; /* Centering the grid */
+    max-width: 300px; /* Restricting the maximum width of the grid */
+}
+
+.cell {
+    background-color: #fff;
+    border: 2px solid #A2D265;
+    border-radius: 5px;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    aspect-ratio: 1 / 1; /* Ensures that cells are square */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Set a fixed height for better visual */
+    color: #444; /* Default text color */
+}
+
+.cell.red { color: black; }
+.cell.blue { color: black; }
+
+.cell:hover {
+    background-color: #eaeaea; /* Hover effect for cells */
+}
+
+#difficultySelection {
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+#resultDisplay {
+    font-family: Raleway;
+    font-size: 24px;
+    margin: 20px;
+}
+
+#restartButton {
+    width: 175px;
+    padding: 15px;
+    border: none;
+    border-radius: 500px;
+    background: #A2D265;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+}
